@@ -1,0 +1,52 @@
+[
+  {
+    "type": "string",
+    "heading": "Status",
+    "row": "status"
+  },
+  {
+    "type": "date",
+    "heading": "Date",
+    "row": "date"
+  },
+  {
+    "type": "string",
+    "heading": "Merchant Name",
+    "row": "merchant"
+  },
+  {
+    "type": "string",
+    "heading": "Team Member",
+    "row": "team_member"
+  },
+  {
+    "type": "select",
+    "heading": "Category",
+    "row": "category"
+  },
+  {
+    "type": "string",
+    "heading": "Amount",
+    "row": "amount"
+  },
+  {
+    "type": "string",
+    "heading": "GST",
+    "row": "gst"
+  },
+  {
+    "type": "string",
+    "heading": "Budget",
+    "row": "budget"
+  },
+  {
+    "type": "checkbox",
+    "heading": "Receipt",
+    "row": "receipt"
+  },
+  {
+    "type": "checkbox",
+    "heading": "Billable",
+    "row": "billable"
+  }
+]
