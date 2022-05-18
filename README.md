@@ -7,7 +7,7 @@
 
 ## Introduction
 
-### Thank you for the oppurunity to take part in the challenge. Not having access to packages was fun! :) The table is rendering with the different data types, looking up the category & merchant names and is filtering against the required fields. More filter categories can be added in the future without having to change the filter function. And, more columns headings and data types can be added in the future without having to change the table itself.
+### Thank you for the opportunity to take part in the challenge. Not having access to packages was fun! :) The table is rendering with the different data types, looking up the category & merchant names and is filtering against the required fields. More filter categories can be added in the future without having to change the filter function. And, more columns headings and data types can be added in the future without having to change the table itself.
 
 ## Test Notes
 
