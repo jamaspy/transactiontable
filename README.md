@@ -23,3 +23,10 @@
   - Ensure filter handles `numbers` and `strings`
 - As the data and potential number of records increase the filter function will be less efficient and will need to be refactored.
 - Allow data to be updated/added/deleted from the table
+
+## Screenshots
+
+<img width="1188" alt="Screen Shot 2022-05-19 at 9 08 47 am" src="https://user-images.githubusercontent.com/12505932/169169738-267bb7df-1e8b-4075-ba9f-6e22e5ad77cc.png">
+<img width="1183" alt="Screen Shot 2022-05-19 at 9 09 03 am" src="https://user-images.githubusercontent.com/12505932/169169770-083b71ed-329c-4195-888e-5bcfe2b3498a.png">
+<img width="1192" alt="Screen Shot 2022-05-19 at 9 09 22 am" src="https://user-images.githubusercontent.com/12505932/169169808-2a885540-7a00-4952-8808-21c9f043adb3.png">
+
