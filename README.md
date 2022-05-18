@@ -1,43 +1,25 @@
 ## Installation
 
-1) Clone this repo to your machine
-2) Run `npm install` to install the dependencies
-3) Run `npm start` to run the app in development mode
-4) Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repo to your machine
+2. Run `npm install` to install the dependencies
+3. Run `npm start` to run the app in development mode
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Objective
-Finance managers use DiviPay to stay on top of their team's expenses. Your challenge is to implement DiviPay's new transaction table to make it easy for finance managers to see what’s happening at a simple glance.
+## Introduction
 
-## Requirements
-- Please implement a transaction table that displays the provided data. You should have the following columns in your table:
-    - Status
-    - Date
-    - Merchant Name
-    - Team Member
-    - Category (dropdown list of category names)
-    - Amount
-    - GST
-    - Budget
-    - Receipt (read-only checkbox)
-    - Billable (checkbox)
+### Thank you for the oppurunity to take part in the challenge. Not having access to packages was fun! :) The table is rendering with the different data types, looking up the category & merchant names and is filtering against the required fields. More filter categories can be added in the future without having to change the filter function. And, more columns headings and data types can be added in the future without having to change the table itself.
 
-- Please implement a search feature that can take any input in the search bar and display any matching transactions in the table. Fields that should be searched are:
-    - Merchant Name
-    - Team Member
-    - Category Name
-    - Budget
-    - Amount
-    - GST   
+## Test Notes
 
-- Approach this app like it would be used in production by customers and worked on by other developers.
-- It should be well structured, fully tested, work according to the requirements and have no bugs.
-- Feel free to re-organise the folders, make new modules, and refactor as you see fit.
-- The app should look appealing and be easy to use for finance managers.
-- We ask that you don't use any libraries not already provided in the package.json to implement the functionality as we want to see your raw coding ability.
+- Table data not being rendered at all in the table `<renderApp/>` is only producing the table, and the table head.
+- Due to time contraints I was unable to get the table data to render. Tried, adding in a `async await`, `waitFor` & `findBy` in case the App was rendered before the table data was rendered by the `renderTableCell()` function.
+- Really good example of using TDD from the beginning to ensure the appraoch is testable.
 
-## Required effort
-You should spend about 4 hours on this challenge. We are interested in seeing your problem solving ability, the structure and robustness of your code and design skills. Your solution does not need to look perfect, but it must be fully tested and work according to the requirements without any bugs.
+## Future Work
 
-## Resources
-- Here is the documentation for [React Testing Library](https://testing-library.com/docs/react-testing-library/intro), which is the testing library used for this challenge.
-- All sample data has been provided for you.
+- Once table data is rendering add tests:
+  - `<select>` & `<checkbox>` inputs are rendering correctly
+  - Ensure the filter button is disabled when no filter term is entered
+  - Ensure filter handles `numbers` and `strings`
+- As the data and potential number of records increase the filter function will be less efficient and will need to be refactored.
+- Allow data to be updated/added/deleted from the table
