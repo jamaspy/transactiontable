@@ -11,9 +11,8 @@
 
 ## Test Notes
 
-- Table data not being rendered at all in the table `<renderApp/>` is only producing the table, and the table head.
-- Due to time contraints I was unable to get the table data to render. Tried, adding in a `async await`, `waitFor` & `findBy` in case the App was rendered before the table data was rendered by the `renderTableCell()` function.
-- Really good example of using TDD from the beginning to ensure the appraoch is testable.
+- Managed to get the data to render and to isolate rows and cells
+- Implementation is not the most scaleable as I rely on hard coding the row and cell position in the array. If more headings were added the tests would fail.
 
 ## Future Work
 
